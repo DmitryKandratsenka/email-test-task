@@ -11,7 +11,7 @@ Develop a simple web app allowing users to send emails. The app should have the 
 2. When typing text in the search bar, the list of emails in the sidebar should be filtered based on the search text
    * We should do the filtering on the backend
    * We should debounce the requests to the backend (i.e. wait for 500ms after the user stops typing before sending the request)
-   * The search should return results where either the `to`, `cc`, `bcc`, `subject`, or `subject` fields contain the search text
+   * The search should return results where either the `to`, `cc`, `bcc`, `subject`, or `body` fields contain the search text
 
 ## 3. Sending emails
 The main page should have a button to compose a new email (placed at the bottom right corner of the screen). The following fields should be present in the compose email form:
